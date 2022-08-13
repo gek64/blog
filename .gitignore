@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/jetbrains+all,visualstudio,visualstudiocode,node,go,angular,react,vue,windows,macos,linux
-# Edit at https://www.toptal.com/developers/gitignore?templates=jetbrains+all,visualstudio,visualstudiocode,node,go,angular,react,vue,windows,macos,linux
+# Created by https://www.toptal.com/developers/gitignore/api/go,vue,node,linux,react,macos,angular,windows,visualstudio,jetbrains+all,visualstudiocode,hugo
+# Edit at https://www.toptal.com/developers/gitignore?templates=go,vue,node,linux,react,macos,angular,windows,visualstudio,jetbrains+all,visualstudiocode,hugo
 
 ### Angular ###
 ## Angular ##
@@ -59,6 +59,21 @@ go.work
 ### Go Patch ###
 /vendor/
 /Godeps/
+
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary lock file while building
+/.hugo_build.lock
 
 ### JetBrains+all ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
@@ -794,4 +809,4 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/jetbrains+all,visualstudio,visualstudiocode,node,go,angular,react,vue,windows,macos,linux
+# End of https://www.toptal.com/developers/gitignore/api/go,vue,node,linux,react,macos,angular,windows,visualstudio,jetbrains+all,visualstudiocode,hugo
