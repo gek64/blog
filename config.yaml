@@ -1,5 +1,5 @@
 # 网站根域名(仅在部署后生效)
-baseurl: https://gek64.github.io/bolg/
+baseurl: https://gek64.github.io/bolg
 
 # 语言代码
 languageCode: zh-cn
