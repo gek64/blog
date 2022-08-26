@@ -1,5 +1,5 @@
 ---
-title: [开源开发软件]iptvchecker
+title: (开源软件)iptvchecker
 description: 多m3u链接检测合并软件
 date: 2022-08-17
 slug: iptvchecker
