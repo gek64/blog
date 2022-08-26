@@ -55,5 +55,5 @@ Github 地址 [iptvchecker](https://github.com/gek64/iptvchecker)，
 
 
 ## 协议
-- 本软件采用(GNU General Public License v3.0)[https://github.com/gek64/iptvchecker/blob/main/LICENSE]协议。
+- 本软件采用 [GNU General Public License v3.0](https://github.com/gek64/iptvchecker/blob/main/LICENSE) 协议。
 - 如使用或者传播即代表同意以上协议，请仔细阅读协议内容，特别注意，本人对程序的使用不负任何责任，也不对程序的运行做任何的担保，谢谢。
