@@ -23,6 +23,12 @@ tags:
 ### windows 安装参考
 - https://www.rabbitmq.com/install-windows-manual.html
 
+1. 安装 [erlang](https://erlang.org/download/otp_versions_tree.html)
+2. 在系统环境变量中设置`ERLANG_HOME`,例如`C:\Program Files\Erlang OTP`
+3. 解压`rabbitmq-server-windows-*.zip`
+4. 运行`sbin/rabbitmq-server.bat`启动服务
+5. 使用`sbin/rabbitmqctl.bat`配置
+
 
 ### 用户管理
 ```sh
