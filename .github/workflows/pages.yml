@@ -38,7 +38,7 @@ jobs:
       - name: Install Hugo CLI
         run: |
           wget https://github.com/gek64/redl/releases/latest/download/redl-linux-amd64 && chmod +x redl-linux-amd64
-          ./redl-linux-amd64 -o "hugo.deb" -r "gohugoio/hugo" -p "hugo_extended" "Linux-64bit.deb" && sudo dpkg -i ./hugo.deb
+          ./redl-linux-amd64 -o "hugo.deb" -r "gohugoio/hugo" -p "hugo_extended" "linux-amd64.deb" && sudo dpkg -i ./hugo.deb
       - name: Checkout
         uses: actions/checkout@v3
         with:
