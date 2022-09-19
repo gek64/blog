@@ -59,7 +59,7 @@ rabbitmqctl list_users
 # 仅可登陆管理控制台(启用management plugin的情况下)，无法看到节点信息，也无法对策略进行管理。
 # 5.其他角色(名称自定义)
 # 无法登陆管理控制台，通常就是普通的生产者和消费者。
-rabbitmqctl set_user_tags User_Name UserTags...
+rabbitmqctl set_user_tags UserName UserTags...
 ```
 
 ### 用户权限管理
